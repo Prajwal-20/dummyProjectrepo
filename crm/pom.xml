@@ -2,7 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>vtiger</groupId>
   <artifactId>crm</artifactId>
-  <version>0.0.1-SNAPSHOT</version> <dependencies>
+  <version>0.0.1-SNAPSHOT</version> 
+  <dependencies>
    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
@@ -33,6 +34,14 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.0.9</version>
 </dependency>
 </dependencies>
  <properties>
